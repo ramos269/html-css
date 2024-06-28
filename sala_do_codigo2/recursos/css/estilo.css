@@ -19,10 +19,16 @@ a{
     text-decoration:none;
     font-size: 24px;
 }
+body{
+    background-color: #d6d6d6;
+    font-family: "kavon",sans-serif;
+}
 /*-----header-----*/
 header{
-    margin: 10px;
-    padding: 10px;
+    width: 90%;
+    margin: 3% 5%;
+    /*margin: 10px;
+    padding: 10px;*/
 }
 header nav ul{
     display: flex;
@@ -37,4 +43,15 @@ header nav ul li a:hover{
 header  nav ul li input{
     padding: 5px;
     border-radius: 10px;
+}
+header nav ul li i{
+    position: absolute;
+    right: 275px;
+    top: 36px;
+}
+#link_button{
+    border: 1px solid #0f0f0f;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 1em;
 }
